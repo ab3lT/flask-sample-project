@@ -22,7 +22,7 @@ def hello_age(age):
         time = datetime.now()
         print(time.year)
         computed_date = time.year - age 
-        return f'You are bourn in {computed_date}'
+        return f'You are born in {computed_date}'
     return f"Your age is , {escape(age)}! " 
 
 @app.route("/name", methods = ['GET', 'POST'])
